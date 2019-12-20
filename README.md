@@ -1,2 +1,2 @@
 # TTRH-Transcription
-TTRH Transcription
+![QR Code](qr-code.png)
