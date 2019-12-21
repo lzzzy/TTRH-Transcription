@@ -1,5 +1,5 @@
 # TTRH-Transcription
-![QR Code](qr-code.png)
+<img src="qr-code.png" width="150">
 
 Links:
 *  [Git Large File Storage](https://git-lfs.github.com/)
