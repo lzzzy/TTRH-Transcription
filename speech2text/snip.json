@@ -1,7 +1,7 @@
 {
-   "created": "2019-12-21T13:25:01.815Z",
-   "id": "4ae49496-23f5-11ea-8e01-c768f0aea480",
-   "updated": "2019-12-21T13:25:49.891Z",
+   "created": "2020-08-15T13:19:38.043Z",
+   "id": "f832b06e-def9-11ea-9f7e-5ffa24177646",
+   "updated": "2020-08-15T13:20:25.071Z",
    "results": [{
       "result_index": 0,
       "results": [
@@ -10,35 +10,29 @@
                {
                   "start_time": 1.73,
                   "end_time": 1.94,
-                  "alternatives": [
-                     {
-                        "confidence": 0.93,
-                        "word": "it's"
-                     },
-                     {
-                        "confidence": 0.03,
-                        "word": "its"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.91,
+                     "word": "it's"
+                  }]
                },
                {
                   "start_time": 1.94,
                   "end_time": 2.23,
                   "alternatives": [
                      {
-                        "confidence": 0.45,
+                        "confidence": 0.63,
                         "word": "night"
-                     },
-                     {
-                        "confidence": 0.22,
-                        "word": "nice"
                      },
                      {
                         "confidence": 0.14,
                         "word": "not"
                      },
                      {
-                        "confidence": 0.09,
+                        "confidence": 0.06,
+                        "word": "nice"
+                     },
+                     {
+                        "confidence": 0.06,
                         "word": "nine"
                      }
                   ]
@@ -48,34 +42,28 @@
                   "end_time": 2.54,
                   "alternatives": [
                      {
-                        "confidence": 0.58,
-                        "word": "<eps>"
+                        "confidence": 0.57,
+                        "word": "time"
                      },
                      {
-                        "confidence": 0.28,
-                        "word": "time"
+                        "confidence": 0.14,
+                        "word": "<eps>"
                      }
                   ]
                },
                {
-                  "start_time": 2.57,
+                  "start_time": 2.54,
                   "end_time": 2.65,
-                  "alternatives": [
-                     {
-                        "confidence": 0.68,
-                        "word": "in"
-                     },
-                     {
-                        "confidence": 0.03,
-                        "word": "and"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.72,
+                     "word": "in"
+                  }]
                },
                {
                   "start_time": 2.65,
                   "end_time": 2.77,
                   "alternatives": [{
-                     "confidence": 0.9,
+                     "confidence": 0.74,
                      "word": "the"
                   }]
                },
@@ -83,7 +71,7 @@
                   "start_time": 2.77,
                   "end_time": 3,
                   "alternatives": [{
-                     "confidence": 0.93,
+                     "confidence": 0.76,
                      "word": "big"
                   }]
                },
@@ -91,7 +79,7 @@
                   "start_time": 3,
                   "end_time": 3.44,
                   "alternatives": [{
-                     "confidence": 0.95,
+                     "confidence": 0.9,
                      "word": "city"
                   }]
                }
@@ -136,68 +124,27 @@
                      3.44
                   ]
                ],
-               "confidence": 0.64
+               "confidence": 0.65
             }]
          },
          {
-            "word_alternatives": [
-               {
-                  "start_time": 6.59,
-                  "end_time": 6.87,
-                  "alternatives": [
-                     {
-                        "confidence": 0.56,
-                        "word": "store"
-                     },
-                     {
-                        "confidence": 0.18,
-                        "word": "stores"
-                     },
-                     {
-                        "confidence": 0.07,
-                        "word": "stories"
-                     },
-                     {
-                        "confidence": 0.06,
-                        "word": "story"
-                     },
-                     {
-                        "confidence": 0.01,
-                        "word": "your"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 6.87,
-                  "end_time": 7.37,
-                  "alternatives": [
-                     {
-                        "confidence": 0.36,
-                        "word": "Santa"
-                     },
-                     {
-                        "confidence": 0.11,
-                        "word": "sand"
-                     },
-                     {
-                        "confidence": 0.1,
-                        "word": "sent"
-                     },
-                     {
-                        "confidence": 0.07,
-                        "word": "San"
-                     },
-                     {
-                        "confidence": 0.06,
-                        "word": "Sam's"
-                     }
-                  ]
-               }
-            ],
+            "word_alternatives": [{
+               "start_time": 6.59,
+               "end_time": 6.87,
+               "alternatives": [{
+                  "confidence": 0.56,
+                  "word": "store"
+               }]
+            }],
             "final": true,
             "alternatives": [{
-               "transcript": "store Santa ",
+               "transcript": "the store Santa ",
                "timestamps": [
+                  [
+                     "the",
+                     5.75,
+                     5.83
+                  ],
                   [
                      "store",
                      6.59,
@@ -209,112 +156,60 @@
                      7.37
                   ]
                ],
-               "confidence": 0.31
+               "confidence": 0.43
             }]
          },
          {
             "word_alternatives": [
                {
                   "start_time": 12.35,
-                  "end_time": 12.67,
+                  "end_time": 12.94,
                   "alternatives": [
                      {
-                        "confidence": 0.46,
+                        "confidence": 0.63,
                         "word": "this"
                      },
                      {
-                        "confidence": 0.25,
+                        "confidence": 0.15,
                         "word": "he's"
-                     },
-                     {
-                        "confidence": 0.06,
-                        "word": "his"
-                     },
-                     {
-                        "confidence": 0.04,
-                        "word": "yes"
-                     },
-                     {
-                        "confidence": 0.03,
-                        "word": "is"
-                     },
-                     {
-                        "confidence": 0.02,
-                        "word": "use"
-                     },
-                     {
-                        "confidence": 0.02,
-                        "word": "has"
                      }
                   ]
                },
                {
                   "start_time": 13.07,
                   "end_time": 13.38,
-                  "alternatives": [
-                     {
-                        "confidence": 0.91,
-                        "word": "makes"
-                     },
-                     {
-                        "confidence": 0.01,
-                        "word": "mixing"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.62,
+                     "word": "makes"
+                  }]
                },
                {
                   "start_time": 13.38,
                   "end_time": 13.48,
                   "alternatives": [
                      {
-                        "confidence": 0.89,
+                        "confidence": 0.46,
                         "word": "an"
+                     },
+                     {
+                        "confidence": 0.13,
+                        "word": "it"
                      },
                      {
                         "confidence": 0.05,
                         "word": "no"
-                     },
-                     {
-                        "confidence": 0.01,
-                        "word": "in"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 13.48,
-                  "end_time": 13.75,
-                  "alternatives": [
-                     {
-                        "confidence": 0.67,
-                        "word": "old"
-                     },
-                     {
-                        "confidence": 0.06,
-                        "word": "olds"
-                     },
-                     {
-                        "confidence": 0.05,
-                        "word": "<eps>"
-                     },
-                     {
-                        "confidence": 0.03,
-                        "word": "older"
-                     },
-                     {
-                        "confidence": 0.01,
-                        "word": "oldies"
                      }
                   ]
                }
             ],
             "final": true,
             "alternatives": [{
-               "transcript": "this makes an old ",
+               "transcript": "this makes it holds ",
                "timestamps": [
                   [
                      "this",
                      12.35,
-                     12.67
+                     12.94
                   ],
                   [
                      "makes",
@@ -322,88 +217,28 @@
                      13.38
                   ],
                   [
-                     "an",
+                     "it",
                      13.38,
-                     13.48
+                     13.47
                   ],
                   [
-                     "old",
-                     13.48,
-                     13.75
+                     "holds",
+                     13.47,
+                     14.33
                   ]
                ],
-               "confidence": 0.54
+               "confidence": 0.27
             }]
          },
          {
-            "word_alternatives": [
-               {
-                  "start_time": 19.59,
-                  "end_time": 19.86,
-                  "alternatives": [
-                     {
-                        "confidence": 0.66,
-                        "word": "yeah"
-                     },
-                     {
-                        "confidence": 0.07,
-                        "word": "F."
-                     },
-                     {
-                        "confidence": 0.05,
-                        "word": "yep"
-                     },
-                     {
-                        "confidence": 0.03,
-                        "word": "yes"
-                     },
-                     {
-                        "confidence": 0.01,
-                        "word": "app"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 19.86,
-                  "end_time": 19.99,
-                  "alternatives": [
-                     {
-                        "confidence": 0.51,
-                        "word": "<eps>"
-                     },
-                     {
-                        "confidence": 0.11,
-                        "word": "and"
-                     },
-                     {
-                        "confidence": 0.06,
-                        "word": "think"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 20.23,
-                  "end_time": 20.36,
-                  "alternatives": [{
-                     "confidence": 0.85,
-                     "word": "the"
-                  }]
-               },
-               {
-                  "start_time": 20.36,
-                  "end_time": 20.88,
-                  "alternatives": [
-                     {
-                        "confidence": 0.82,
-                        "word": "building"
-                     },
-                     {
-                        "confidence": 0.02,
-                        "word": "<eps>"
-                     }
-                  ]
-               }
-            ],
+            "word_alternatives": [{
+               "start_time": 20.36,
+               "end_time": 20.88,
+               "alternatives": [{
+                  "confidence": 0.54,
+                  "word": "building"
+               }]
+            }],
             "final": true,
             "alternatives": [{
                "transcript": "yeah the building ",
@@ -424,80 +259,53 @@
                      20.88
                   ]
                ],
-               "confidence": 0.63
+               "confidence": 0.57
             }]
          },
          {
             "word_alternatives": [
                {
-                  "start_time": 25.96,
-                  "end_time": 26.44,
-                  "alternatives": [
-                     {
-                        "confidence": 0.36,
-                        "word": "steam"
-                     },
-                     {
-                        "confidence": 0.3,
-                        "word": "Steen"
-                     },
-                     {
-                        "confidence": 0.13,
-                        "word": "seen"
-                     },
-                     {
-                        "confidence": 0.09,
-                        "word": "scene"
-                     },
-                     {
-                        "confidence": 0.05,
-                        "word": "scheme"
-                     },
-                     {
-                        "confidence": 0.01,
-                        "word": "Houston"
-                     },
-                     {
-                        "confidence": 0.01,
-                        "word": "team"
-                     }
-                  ]
+                  "start_time": 26.03,
+                  "end_time": 26.49,
+                  "alternatives": [{
+                     "confidence": 0.68,
+                     "word": "steamed"
+                  }]
                },
                {
-                  "start_time": 26.44,
+                  "start_time": 26.49,
                   "end_time": 26.77,
                   "alternatives": [{
-                     "confidence": 0.8,
-                     "word": "time"
+                     "confidence": 0.72,
+                     "word": "ham"
                   }]
                },
                {
                   "start_time": 26.77,
                   "end_time": 27.19,
-                  "alternatives": [
-                     {
-                        "confidence": 0.58,
-                        "word": "radio"
-                     },
-                     {
-                        "confidence": 0.13,
-                        "word": "media"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.57,
+                     "word": "radio"
+                  }]
                }
             ],
             "final": true,
             "alternatives": [{
-               "transcript": "steam time radio ",
+               "transcript": "it's steamed ham radio ",
                "timestamps": [
                   [
-                     "steam",
-                     25.96,
-                     26.44
+                     "it's",
+                     25.85,
+                     26.03
                   ],
                   [
-                     "time",
-                     26.44,
+                     "steamed",
+                     26.03,
+                     26.49
+                  ],
+                  [
+                     "ham",
+                     26.49,
                      26.77
                   ],
                   [
@@ -506,56 +314,18 @@
                      27.19
                   ]
                ],
-               "confidence": 0.37
+               "confidence": 0.43
             }]
          },
          {
-            "word_alternatives": [
-               {
-                  "start_time": 28,
-                  "end_time": 28.08,
-                  "alternatives": [
-                     {
-                        "confidence": 0.47,
-                        "word": "if"
-                     },
-                     {
-                        "confidence": 0.22,
-                        "word": "the"
-                     },
-                     {
-                        "confidence": 0.06,
-                        "word": "do"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 28.08,
-                  "end_time": 28.21,
-                  "alternatives": [
-                     {
-                        "confidence": 0.53,
-                        "word": "you"
-                     },
-                     {
-                        "confidence": 0.12,
-                        "word": "<eps>"
-                     },
-                     {
-                        "confidence": 0.05,
-                        "word": "your"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 28.21,
-                  "end_time": 28.61,
-                  "alternatives": [{
-                     "confidence": 0.9,
-                     "word": "host"
-                  }]
-               }
-            ],
+            "word_alternatives": [{
+               "start_time": 28.21,
+               "end_time": 28.62,
+               "alternatives": [{
+                  "confidence": 0.62,
+                  "word": "host"
+               }]
+            }],
             "final": true,
             "alternatives": [{
                "transcript": "if you host ",
@@ -573,10 +343,10 @@
                   [
                      "host",
                      28.21,
-                     28.61
+                     28.62
                   ]
                ],
-               "confidence": 0.57
+               "confidence": 0.52
             }]
          },
          {
@@ -585,45 +355,33 @@
                   "start_time": 59.82,
                   "end_time": 59.97,
                   "alternatives": [{
-                     "confidence": 0.99,
+                     "confidence": 0.97,
                      "word": "I"
                   }]
                },
                {
                   "start_time": 59.97,
-                  "end_time": 60.24,
+                  "end_time": 60.23,
                   "alternatives": [{
-                     "confidence": 0.98,
+                     "confidence": 0.93,
                      "word": "am"
                   }]
                },
                {
                   "start_time": 60.47,
-                  "end_time": 60.88,
-                  "alternatives": [
-                     {
-                        "confidence": 0.94,
-                        "word": "beginning"
-                     },
-                     {
-                        "confidence": 0.02,
-                        "word": "speaking"
-                     }
-                  ]
+                  "end_time": 60.86,
+                  "alternatives": [{
+                     "confidence": 0.93,
+                     "word": "beginning"
+                  }]
                },
                {
-                  "start_time": 60.88,
+                  "start_time": 60.86,
                   "end_time": 60.98,
-                  "alternatives": [
-                     {
-                        "confidence": 0.95,
-                        "word": "to"
-                     },
-                     {
-                        "confidence": 0.02,
-                        "word": "a"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.97,
+                     "word": "to"
+                  }]
                },
                {
                   "start_time": 60.98,
@@ -637,7 +395,7 @@
                   "start_time": 61.12,
                   "end_time": 61.17,
                   "alternatives": [{
-                     "confidence": 0.98,
+                     "confidence": 1,
                      "word": "a"
                   }]
                },
@@ -645,7 +403,7 @@
                   "start_time": 61.17,
                   "end_time": 61.44,
                   "alternatives": [{
-                     "confidence": 0.99,
+                     "confidence": 1,
                      "word": "lot"
                   }]
                },
@@ -659,31 +417,25 @@
                },
                {
                   "start_time": 61.64,
-                  "end_time": 62.3,
+                  "end_time": 62.31,
                   "alternatives": [{
-                     "confidence": 1,
+                     "confidence": 0.96,
                      "word": "Christmas"
                   }]
                },
                {
                   "start_time": 62.57,
                   "end_time": 62.75,
-                  "alternatives": [
-                     {
-                        "confidence": 0.94,
-                        "word": "and"
-                     },
-                     {
-                        "confidence": 0.02,
-                        "word": "in"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.89,
+                     "word": "and"
+                  }]
                },
                {
                   "start_time": 62.75,
                   "end_time": 62.83,
                   "alternatives": [{
-                     "confidence": 0.97,
+                     "confidence": 0.89,
                      "word": "for"
                   }]
                },
@@ -691,7 +443,7 @@
                   "start_time": 62.83,
                   "end_time": 62.96,
                   "alternatives": [{
-                     "confidence": 0.97,
+                     "confidence": 0.89,
                      "word": "the"
                   }]
                },
@@ -699,69 +451,51 @@
                   "start_time": 62.96,
                   "end_time": 63.24,
                   "alternatives": [{
-                     "confidence": 0.97,
+                     "confidence": 0.89,
                      "word": "next"
                   }]
                },
                {
                   "start_time": 63.24,
-                  "end_time": 63.54,
+                  "end_time": 63.53,
                   "alternatives": [{
-                     "confidence": 0.97,
+                     "confidence": 0.93,
                      "word": "couple"
                   }]
                },
                {
-                  "start_time": 63.54,
+                  "start_time": 63.53,
                   "end_time": 64.22,
-                  "alternatives": [
-                     {
-                        "confidence": 0.74,
-                        "word": "hours"
-                     },
-                     {
-                        "confidence": 0.08,
-                        "word": "allies"
-                     },
-                     {
-                        "confidence": 0.06,
-                        "word": "balance"
-                     },
-                     {
-                        "confidence": 0.04,
-                        "word": "Allen's"
-                     },
-                     {
-                        "confidence": 0.01,
-                        "word": "lands"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.93,
+                     "word": "hours"
+                  }]
                },
                {
-                  "start_time": 64.27,
+                  "start_time": 64.26,
                   "end_time": 64.5,
                   "alternatives": [
                      {
-                        "confidence": 0.93,
+                        "confidence": 0.81,
                         "word": "is"
                      },
                      {
-                        "confidence": 0.03,
+                        "confidence": 0.11,
                         "word": "it's"
                      }
                   ]
                },
                {
                   "start_time": 64.5,
-                  "end_time": 64.68,
+                  "end_time": 64.76,
                   "alternatives": [
                      {
-                        "confidence": 0.47,
-                        "word": "going"
+                        "confidence": 0.69,
+                        "word": "gonna"
                      },
                      {
-                        "confidence": 0.43,
-                        "word": "gonna"
+                        "confidence": 0.15,
+                        "word": "going"
                      }
                   ]
                },
@@ -769,7 +503,7 @@
                   "start_time": 64.76,
                   "end_time": 65.16,
                   "alternatives": [{
-                     "confidence": 0.96,
+                     "confidence": 0.87,
                      "word": "sound"
                   }]
                },
@@ -777,50 +511,40 @@
                   "start_time": 65.16,
                   "end_time": 65.34,
                   "alternatives": [{
-                     "confidence": 0.99,
+                     "confidence": 0.89,
                      "word": "like"
                   }]
                },
                {
                   "start_time": 65.34,
                   "end_time": 65.88,
-                  "alternatives": [
-                     {
-                        "confidence": 0.83,
-                        "word": "Christmas"
-                     },
-                     {
-                        "confidence": 0.14,
-                        "word": "business"
-                     },
-                     {
-                        "confidence": 0.01,
-                        "word": "<eps>"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.89,
+                     "word": "Christmas"
+                  }]
                },
                {
                   "start_time": 66.02,
                   "end_time": 66.46,
                   "alternatives": [
                      {
-                        "confidence": 0.48,
+                        "confidence": 0.45,
                         "word": "to"
                      },
                      {
                         "confidence": 0.22,
-                        "word": "two"
+                        "word": "too"
                      },
                      {
                         "confidence": 0.19,
-                        "word": "too"
+                        "word": "two"
                      }
                   ]
                }
             ],
             "final": true,
             "alternatives": [{
-               "transcript": "I am beginning to look a lot like Christmas and for the next couple hours is going to sound like Christmas to ",
+               "transcript": "I am beginning to look a lot like Christmas and for the next couple hours is gonna sound like Christmas to ",
                "timestamps": [
                   [
                      "I",
@@ -830,16 +554,16 @@
                   [
                      "am",
                      59.97,
-                     60.24
+                     60.23
                   ],
                   [
                      "beginning",
                      60.47,
-                     60.88
+                     60.86
                   ],
                   [
                      "to",
-                     60.88,
+                     60.86,
                      60.98
                   ],
                   [
@@ -865,7 +589,7 @@
                   [
                      "Christmas",
                      61.64,
-                     62.3
+                     62.31
                   ],
                   [
                      "and",
@@ -890,26 +614,21 @@
                   [
                      "couple",
                      63.24,
-                     63.54
+                     63.53
                   ],
                   [
                      "hours",
-                     63.54,
+                     63.53,
                      64.22
                   ],
                   [
                      "is",
-                     64.27,
+                     64.26,
                      64.5
                   ],
                   [
-                     "going",
+                     "gonna",
                      64.5,
-                     64.68
-                  ],
-                  [
-                     "to",
-                     64.68,
                      64.76
                   ],
                   [
@@ -933,7 +652,7 @@
                      66.46
                   ]
                ],
-               "confidence": 0.75
+               "confidence": 0.88
             }]
          },
          {
@@ -950,113 +669,77 @@
                   "start_time": 69.84,
                   "end_time": 70.01,
                   "alternatives": [{
-                     "confidence": 1,
+                     "confidence": 0.96,
                      "word": "is"
                   }]
                },
                {
-                  "start_time": 70.43,
+                  "start_time": 70.01,
+                  "end_time": 70.13,
+                  "alternatives": [{
+                     "confidence": 0.84,
+                     "word": "a"
+                  }]
+               },
+               {
+                  "start_time": 70.13,
                   "end_time": 70.78,
-                  "alternatives": [
-                     {
-                        "confidence": 0.53,
-                        "word": "special"
-                     },
-                     {
-                        "confidence": 0.35,
-                        "word": "cell"
-                     },
-                     {
-                        "confidence": 0.09,
-                        "word": "song"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.96,
+                     "word": "special"
+                  }]
                },
                {
                   "start_time": 70.9,
-                  "end_time": 71.13,
-                  "alternatives": [
-                     {
-                        "confidence": 0.89,
-                        "word": "you"
-                     },
-                     {
-                        "confidence": 0.06,
-                        "word": "you'll"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 71.13,
-                  "end_time": 71.37,
-                  "alternatives": [
-                     {
-                        "confidence": 0.84,
-                        "word": "will"
-                     },
-                     {
-                        "confidence": 0.03,
-                        "word": "look"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 71.37,
-                  "end_time": 71.53,
-                  "alternatives": [
-                     {
-                        "confidence": 0.82,
-                        "word": "<eps>"
-                     },
-                     {
-                        "confidence": 0.07,
-                        "word": "tad"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 71.85,
-                  "end_time": 73.06,
+                  "end_time": 71.84,
                   "alternatives": [{
-                     "confidence": 0.85,
+                     "confidence": 0.82,
+                     "word": "yuletide"
+                  }]
+               },
+               {
+                  "start_time": 71.84,
+                  "end_time": 73.07,
+                  "alternatives": [{
+                     "confidence": 0.77,
                      "word": "extravaganza"
                   }]
                },
                {
                   "start_time": 73.13,
                   "end_time": 73.6,
-                  "alternatives": [{
-                     "confidence": 0.94,
-                     "word": "edition"
-                  }]
+                  "alternatives": [
+                     {
+                        "confidence": 0.82,
+                        "word": "edition"
+                     },
+                     {
+                        "confidence": 0.11,
+                        "word": "addition"
+                     }
+                  ]
                },
                {
                   "start_time": 73.6,
-                  "end_time": 73.72,
+                  "end_time": 73.71,
                   "alternatives": [{
-                     "confidence": 0.97,
+                     "confidence": 0.94,
                      "word": "of"
                   }]
                },
                {
-                  "start_time": 73.72,
+                  "start_time": 73.71,
                   "end_time": 74.07,
-                  "alternatives": [
-                     {
-                        "confidence": 0.94,
-                        "word": "theme"
-                     },
-                     {
-                        "confidence": 0.01,
-                        "word": "thing"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.95,
+                     "word": "theme"
+                  }]
                },
                {
                   "start_time": 74.07,
                   "end_time": 74.39,
                   "alternatives": [{
-                     "confidence": 0.96,
+                     "confidence": 0.85,
                      "word": "time"
                   }]
                },
@@ -1064,89 +747,65 @@
                   "start_time": 74.39,
                   "end_time": 74.82,
                   "alternatives": [{
-                     "confidence": 0.96,
+                     "confidence": 1,
                      "word": "radio"
                   }]
                },
                {
                   "start_time": 74.82,
-                  "end_time": 75.08,
+                  "end_time": 75.13,
                   "alternatives": [{
-                     "confidence": 0.92,
+                     "confidence": 0.94,
                      "word": "hour"
                   }]
                },
                {
-                  "start_time": 75.63,
+                  "start_time": 75.62,
                   "end_time": 75.89,
                   "alternatives": [
                      {
-                        "confidence": 0.69,
+                        "confidence": 0.75,
                         "word": "check"
                      },
                      {
-                        "confidence": 0.13,
-                        "word": "talk"
-                     },
-                     {
-                        "confidence": 0.1,
+                        "confidence": 0.06,
                         "word": "Jack"
                      },
                      {
-                        "confidence": 0.01,
-                        "word": "Chuck"
+                        "confidence": 0.06,
+                        "word": "talk"
                      }
                   ]
                },
                {
                   "start_time": 75.89,
                   "end_time": 76.08,
-                  "alternatives": [
-                     {
-                        "confidence": 0.8,
-                        "word": "for"
-                     },
-                     {
-                        "confidence": 0.09,
-                        "word": "further"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 76.08,
-                  "end_time": 76.32,
-                  "alternatives": [
-                     {
-                        "confidence": 0.65,
-                        "word": "the"
-                     },
-                     {
-                        "confidence": 0.07,
-                        "word": "a"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.55,
+                     "word": "for"
+                  }]
                },
                {
                   "start_time": 76.35,
-                  "end_time": 76.84,
+                  "end_time": 76.92,
                   "alternatives": [{
-                     "confidence": 0.67,
+                     "confidence": 0.54,
                      "word": "Christmas"
                   }]
                },
                {
-                  "start_time": 77.9,
+                  "start_time": 77.89,
                   "end_time": 78.42,
                   "alternatives": [{
-                     "confidence": 0.66,
+                     "confidence": 0.64,
                      "word": "holiday"
                   }]
                },
                {
                   "start_time": 78.42,
-                  "end_time": 79.21,
+                  "end_time": 79.22,
                   "alternatives": [{
-                     "confidence": 0.86,
+                     "confidence": 0.89,
                      "word": "dreams"
                   }]
                },
@@ -1162,7 +821,7 @@
                   "start_time": 79.84,
                   "end_time": 80.17,
                   "alternatives": [{
-                     "confidence": 0.98,
+                     "confidence": 0.94,
                      "word": "jingle"
                   }]
                },
@@ -1171,20 +830,12 @@
                   "end_time": 80.51,
                   "alternatives": [
                      {
-                        "confidence": 0.55,
+                        "confidence": 0.52,
                         "word": "bells"
                      },
                      {
-                        "confidence": 0.35,
+                        "confidence": 0.34,
                         "word": "bell"
-                     },
-                     {
-                        "confidence": 0.04,
-                        "word": "bells'"
-                     },
-                     {
-                        "confidence": 0.01,
-                        "word": "Maskey"
                      }
                   ]
                },
@@ -1193,23 +844,19 @@
                   "end_time": 80.96,
                   "alternatives": [
                      {
-                        "confidence": 0.66,
-                        "word": "ski"
-                     },
-                     {
-                        "confidence": 0.24,
+                        "confidence": 0.48,
                         "word": "scheme"
                      },
                      {
-                        "confidence": 0.01,
-                        "word": "skinny"
+                        "confidence": 0.36,
+                        "word": "ski"
                      }
                   ]
                }
             ],
             "final": true,
             "alternatives": [{
-               "transcript": "this is a special you will extravaganza edition of theme time radio hour check for the Christmas steams holiday dreams and jingle bells ski ",
+               "transcript": "this is a special yuletide extravaganza edition of theme time radio hour check for the Christmas themes holiday dreams and jingle bells scheme ",
                "timestamps": [
                   [
                      "this",
@@ -1224,27 +871,22 @@
                   [
                      "a",
                      70.01,
-                     70.12
+                     70.13
                   ],
                   [
                      "special",
-                     70.12,
+                     70.13,
                      70.78
                   ],
                   [
-                     "you",
+                     "yuletide",
                      70.9,
-                     71.13
-                  ],
-                  [
-                     "will",
-                     71.13,
-                     71.37
+                     71.84
                   ],
                   [
                      "extravaganza",
-                     71.83,
-                     73.06
+                     71.84,
+                     73.07
                   ],
                   [
                      "edition",
@@ -1254,11 +896,11 @@
                   [
                      "of",
                      73.6,
-                     73.72
+                     73.71
                   ],
                   [
                      "theme",
-                     73.72,
+                     73.71,
                      74.07
                   ],
                   [
@@ -1274,11 +916,11 @@
                   [
                      "hour",
                      74.82,
-                     75.08
+                     75.13
                   ],
                   [
                      "check",
-                     75.63,
+                     75.62,
                      75.89
                   ],
                   [
@@ -1294,22 +936,22 @@
                   [
                      "Christmas",
                      76.35,
-                     76.84
+                     76.92
                   ],
                   [
-                     "steams",
-                     76.84,
-                     77.49
+                     "themes",
+                     76.92,
+                     77.5
                   ],
                   [
                      "holiday",
-                     77.9,
+                     77.89,
                      78.42
                   ],
                   [
                      "dreams",
                      78.42,
-                     79.21
+                     79.22
                   ],
                   [
                      "and",
@@ -1327,7 +969,7 @@
                      80.51
                   ],
                   [
-                     "ski",
+                     "scheme",
                      80.51,
                      80.96
                   ]
@@ -1339,101 +981,90 @@
             "word_alternatives": [
                {
                   "start_time": 81.77,
-                  "end_time": 81.8,
-                  "alternatives": [{
-                     "confidence": 0.79,
-                     "word": "I"
-                  }]
-               },
-               {
-                  "start_time": 81.85,
-                  "end_time": 82.04,
-                  "alternatives": [{
-                     "confidence": 0.98,
-                     "word": "think"
-                  }]
-               },
-               {
-                  "start_time": 82.04,
-                  "end_time": 82.21,
+                  "end_time": 82.25,
                   "alternatives": [
                      {
-                        "confidence": 0.88,
-                        "word": "it's"
+                        "confidence": 0.54,
+                        "word": "signature"
                      },
                      {
-                        "confidence": 0.02,
-                        "word": "its"
+                        "confidence": 0.22,
+                        "word": "think"
                      },
                      {
-                        "confidence": 0.02,
-                        "word": "it"
+                        "confidence": 0.08,
+                        "word": "signatures"
                      }
                   ]
                },
                {
-                  "start_time": 82.21,
-                  "end_time": 82.65,
+                  "start_time": 82.67,
+                  "end_time": 82.9,
                   "alternatives": [
                      {
-                        "confidence": 0.83,
-                        "word": "<eps>"
+                        "confidence": 0.53,
+                        "word": "bank"
                      },
                      {
-                        "confidence": 0.01,
-                        "word": "just"
+                        "confidence": 0.12,
+                        "word": "thank"
+                     },
+                     {
+                        "confidence": 0.08,
+                        "word": "eggnog"
+                     },
+                     {
+                        "confidence": 0.06,
+                        "word": "something"
                      }
                   ]
                }
             ],
             "final": true,
             "alternatives": [{
-               "transcript": "I think it's ",
+               "transcript": "signature bank ",
                "timestamps": [
                   [
-                     "I",
+                     "signature",
                      81.77,
-                     81.8
+                     82.25
                   ],
                   [
-                     "think",
-                     81.85,
-                     82.04
-                  ],
-                  [
-                     "it's",
-                     82.04,
-                     82.21
+                     "bank",
+                     82.67,
+                     82.9
                   ]
                ],
-               "confidence": 0.78
+               "confidence": 0.05
             }]
          },
          {
             "word_alternatives": [
                {
-                  "start_time": 83.81,
+                  "start_time": 83.71,
+                  "end_time": 83.8,
+                  "alternatives": [
+                     {
+                        "confidence": 0.75,
+                        "word": "<eps>"
+                     },
+                     {
+                        "confidence": 0.23,
+                        "word": "but"
+                     }
+                  ]
+               },
+               {
+                  "start_time": 83.8,
                   "end_time": 84.15,
                   "alternatives": [
                      {
-                        "confidence": 0.59,
+                        "confidence": 0.63,
                         "word": "perhaps"
                      },
                      {
-                        "confidence": 0.2,
-                        "word": "but"
-                     },
-                     {
-                        "confidence": 0.1,
-                        "word": "lips"
-                     },
-                     {
-                        "confidence": 0.05,
-                        "word": "Phillips"
-                     },
-                     {
-                        "confidence": 0.02,
-                        "word": "that"
+                        "confidence": 0.06,
+                        "word": "absent"
                      }
                   ]
                },
@@ -1442,38 +1073,12 @@
                   "end_time": 84.22,
                   "alternatives": [
                      {
-                        "confidence": 0.44,
+                        "confidence": 0.47,
                         "word": "the"
                      },
                      {
-                        "confidence": 0.16,
-                        "word": "absent"
-                     },
-                     {
-                        "confidence": 0.11,
+                        "confidence": 0.15,
                         "word": "a"
-                     },
-                     {
-                        "confidence": 0.07,
-                        "word": "of"
-                     },
-                     {
-                        "confidence": 0.02,
-                        "word": "and"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 84.23,
-                  "end_time": 85.04,
-                  "alternatives": [
-                     {
-                        "confidence": 0.62,
-                        "word": "mistletoe"
-                     },
-                     {
-                        "confidence": 0.12,
-                        "word": "missile"
                      }
                   ]
                }
@@ -1484,7 +1089,7 @@
                "timestamps": [
                   [
                      "perhaps",
-                     83.81,
+                     83.8,
                      84.15
                   ],
                   [
@@ -1498,103 +1103,69 @@
                      85.04
                   ]
                ],
-               "confidence": 0.21
+               "confidence": 0.28
+            }]
+         },
+         {
+            "word_alternatives": [{
+               "start_time": 85.94,
+               "end_time": 86.21,
+               "alternatives": [
+                  {
+                     "confidence": 0.84,
+                     "word": "thank"
+                  },
+                  {
+                     "confidence": 0.12,
+                     "word": "back"
+                  }
+               ]
+            }],
+            "final": true,
+            "alternatives": [{
+               "transcript": "thank ",
+               "timestamps": [[
+                  "thank",
+                  85.94,
+                  86.21
+               ]],
+               "confidence": 0.66
             }]
          },
          {
             "word_alternatives": [
                {
-                  "start_time": 85.92,
-                  "end_time": 86.21,
-                  "alternatives": [
-                     {
-                        "confidence": 0.86,
-                        "word": "back"
-                     },
-                     {
-                        "confidence": 0.13,
-                        "word": "thank"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 87.61,
-                  "end_time": 87.82,
-                  "alternatives": [
-                     {
-                        "confidence": 0.46,
-                        "word": "leave"
-                     },
-                     {
-                        "confidence": 0.18,
-                        "word": "<eps>"
-                     }
-                  ]
-               },
-               {
                   "start_time": 88.42,
                   "end_time": 88.6,
-                  "alternatives": [
-                     {
-                        "confidence": 0.91,
-                        "word": "me"
-                     },
-                     {
-                        "confidence": 0.01,
-                        "word": "ME"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.68,
+                     "word": "me"
+                  }]
                },
                {
                   "start_time": 88.6,
                   "end_time": 88.77,
-                  "alternatives": [
-                     {
-                        "confidence": 0.68,
-                        "word": "and"
-                     },
-                     {
-                        "confidence": 0.22,
-                        "word": "in"
-                     },
-                     {
-                        "confidence": 0.02,
-                        "word": "an"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.74,
+                     "word": "and"
+                  }]
                },
                {
                   "start_time": 88.77,
                   "end_time": 89.5,
-                  "alternatives": [
-                     {
-                        "confidence": 0.74,
-                        "word": "Rudolph"
-                     },
-                     {
-                        "confidence": 0.12,
-                        "word": "Rudolf"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.67,
+                     "word": "Rudolph"
+                  }]
                }
             ],
             "final": true,
             "alternatives": [{
-               "transcript": "back and leave me and Rudolph ",
+               "transcript": "leave me and Rudolph ",
                "timestamps": [
                   [
-                     "back",
-                     85.92,
-                     86.21
-                  ],
-                  [
-                     "and",
-                     87.48,
-                     87.61
-                  ],
-                  [
                      "leave",
-                     87.61,
+                     87.59,
                      87.82
                   ],
                   [
@@ -1613,84 +1184,30 @@
                      89.5
                   ]
                ],
-               "confidence": 0.61
+               "confidence": 0.69
             }]
          },
          {
             "word_alternatives": [
                {
-                  "start_time": 95.41,
-                  "end_time": 95.81,
-                  "alternatives": [{
-                     "confidence": 0.81,
-                     "word": "things"
-                  }]
-               },
-               {
-                  "start_time": 95.81,
-                  "end_time": 96.06,
-                  "alternatives": [
-                     {
-                        "confidence": 0.67,
-                        "word": "<eps>"
-                     },
-                     {
-                        "confidence": 0.07,
-                        "word": "are"
-                     },
-                     {
-                        "confidence": 0.02,
-                        "word": "out"
-                     }
-                  ]
-               },
-               {
-                  "start_time": 96.13,
-                  "end_time": 96.43,
-                  "alternatives": [{
-                     "confidence": 0.65,
-                     "word": "with"
-                  }]
-               },
-               {
-                  "start_time": 96.43,
-                  "end_time": 96.59,
-                  "alternatives": [
-                     {
-                        "confidence": 0.68,
-                        "word": "two"
-                     },
-                     {
-                        "confidence": 0.02,
-                        "word": "to"
-                     }
-                  ]
-               },
-               {
                   "start_time": 96.59,
                   "end_time": 96.95,
-                  "alternatives": [
-                     {
-                        "confidence": 0.67,
-                        "word": "tennis"
-                     },
-                     {
-                        "confidence": 0.13,
-                        "word": "ten"
-                     }
-                  ]
+                  "alternatives": [{
+                     "confidence": 0.69,
+                     "word": "tennis"
+                  }]
                },
                {
                   "start_time": 96.95,
                   "end_time": 97.25,
                   "alternatives": [
                      {
-                        "confidence": 0.47,
-                        "word": "saxophone"
+                        "confidence": 0.55,
+                        "word": "action"
                      },
                      {
-                        "confidence": 0.45,
-                        "word": "action"
+                        "confidence": 0.27,
+                        "word": "saxophone"
                      }
                   ]
                }
@@ -1735,7 +1252,7 @@
                      97.89
                   ]
                ],
-               "confidence": 0.49
+               "confidence": 0.5
             }]
          }
       ]

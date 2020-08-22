@@ -1,17 +1,14 @@
-cd d:/A
-
 export apikey=
 export url=
-
-export mp3="./episodes/Episode 034 - Christmas New Year’s.mp3"
+export mp3="./episodes/Episode ... .mp3"
 
 curl -X POST -u "apikey:${apikey}" \
 --header "Content-Type: audio/mp3" \
 --data-binary @"${mp3}" \
-"${url}/v1/recognitions?timestamps=true&word_alternatives_threshold=0.01&interim_results=false"
+"${url}/v1/recognitions?timestamps=true&word_alternatives_threshold=0.05&interim_results=false&model=en-US_BroadbandModel"
 
 export id=
 
-curl -X GET -u "apikey:${apikey}" "${url}/v1/recognitions/${id}" > "./speech2text/${id}.json"
+curl -X GET -u "apikey:${apikey}" "${url}/v1/recognitions/${id}" > "./${mp3}.json"
 
 curl -X DELETE -u "apikey:${apikey}" "${url}/v1/recognitions/${id}"
